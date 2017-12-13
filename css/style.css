@@ -6,20 +6,27 @@
 
 h1{
     color: rgb(3, 3, 95);
-    font-size:120px;
+    font-size:8.25vw;
     font-family: 'Permanent Marker', cursive;
     padding-top:150px;
     padding-bottom:50px;
+    margin:auto;
 }
+
+/* @include media-breakpoint-up(sm) {
+    h1{
+      font-size: 50px;
+    }
+}  */
 
 h3{
     font-family: 'Spectral SC', serif;
-    font-size:30px;
+    font-size:2.3vw;
 }
 
 .container-fluid{
     background: url(../img/enter.jpg);
-    height:800px;
+    height:120vh;
     background-size:cover;
 }
 
@@ -38,42 +45,48 @@ h3{
 
  h2{
     font-family: 'Permanent Marker', cursive;
-    font-size:70px;
-    padding-top:30px;
-    padding-bottom:10px;
+    font-size:6vw;
+    padding-top:40px;
+    padding-bottom:15px;
  }
 
  #ab{
      background-color: rgb(255, 187, 0);
-     height:750px;
+     height:120vh;
      color: rgb(3, 3, 95);
  }
 
  #ab p{
-     padding-right: 200px;
-     padding-left: 200px;
-     padding-top:50px;
+     padding:auto;
+     width:70%;
+     margin:auto;
+     font-size:1.5vw;
      font-weight: bold;
-     padding-bottom:70px;
+     padding-bottom:30px;
+ }
+  
+.img{
+     /* height:30vh; */
+     width:29vw;
  }
 
  #of{
     background-color: rgb(0, 0, 240);
-    height:750px;
+    height:120vh;
     color: rgb(255, 187, 0);
 }
 
 #of  h2{
     color: rgb(255, 187, 0);
     font-family: 'Permanent Marker', cursive;
-    font-size:70px;
-    padding-top:30px;
+    font-size:6vw;
+    padding-top:40px;
     padding-bottom:10px;
  }
 
 #co{
     background-color: rgb(255, 187, 0);
-    height:750px;
+    height:100vh;
     color: rgb(3, 3, 95);
 }
 
@@ -82,7 +95,7 @@ h3{
 }
 
 #table{
-    margin-top:50px;
+    margin-top:80px;
     color: rgb(255, 187, 0);
     font-size: 15px;
     font-weight: bold;
@@ -91,7 +104,7 @@ h3{
 
 .center form {
     display:inline-block;
-    padding-top:120px;
+    padding-top:80px;
 }
 
 .form-group{
@@ -109,3 +122,9 @@ h3{
     margin:0px;
 }
 
+#footer{
+    color: rgb(3, 3, 95);
+    font-weight: bold;
+    font-size:1.6vw;
+    font-family: 'Permanent Marker', cursive;
+}
