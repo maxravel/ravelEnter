@@ -67,8 +67,9 @@ h3{
  
 .img{
     /* flex-wrap:wrap; */
-    height:30vh;
-     /* width:360px; */
+    width:30vw;
+    /* width:360px; */
+    padding:10px;
  }
 
  #of{
